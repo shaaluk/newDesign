@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    margin: 2px;
+}
+.mainBox{
+    display: flex;
+}
+
+.leftBlock{
+    color: white;
+    width: 32%;
+    border-radius: 8px;
+    background-color: rgba(50, 50, 247, 0.934);
+    padding: 12px;
+    padding-bottom: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+  padding: 8px;
+}
+
+.container1{
+    display: flex;
+}
+.card{
+    margin-top: 44px;
+    background-color: rgb(20, 20, 248);
+    margin-bottom: 32px;
+    border-radius: 5px;
+    padding: 5px;
+}
+img{
+    padding: 5px;
+    height: 12vh;
+    border-radius: 5px;
+}
+.heading1{
+    margin-top: 13px;
+    font-size: 2.2rem;
+    padding: 13px;
+}
+.heading2{
+    padding: 13px;
+}
+
+.rightBlock{
+    width: 75%;
+    padding: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box1{
+    outline: none;
+    margin:10px 0px 15px 0px;
+    width: 66%;
+    height: 5vh;
+}
+.Loginbtn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:5px 30px 5px 30px   ;
+    background-color: rgb(66, 66, 248);
+    margin:10px 0px 15px 0px ;
+    font-size: 1rem;
+}
+
+.data1{
+    color: gray;
+    font-size: small;
+}
+.sign{
+    color: blue;
+}
+.data2{
+    color: grey;
+    font-size: small;
+    margin-top: 130px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .rightBlock{
+        width: 20%;
+        height: 80%;
+    }
+}
