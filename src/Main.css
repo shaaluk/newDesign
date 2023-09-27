@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body{
     box-sizing: border-box;
-    margin: 2px;
+    margin: 0px;
+    
 }
 .mainBox{
     display: flex;
@@ -9,11 +12,12 @@ body{
 .leftBlock{
     color: white;
     width: 32%;
-    border-radius: 8px;
-    background-color: rgba(50, 50, 247, 0.934);
+    border-radius: 12px;
+    background-color: rgba(57, 57, 254, 0.934);
     padding: 12px;
-    padding-bottom: 32px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 36px;
+    font-family: 'Lato', sans-serif;
+
 }
 .logo{
   padding: 8px;
@@ -25,9 +29,11 @@ body{
 .card{
     margin-top: 44px;
     background-color: rgb(20, 20, 248);
-    margin-bottom: 32px;
+    margin-bottom: 36px;
+    margin-left: 12px;
+    margin-right: 12px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
 }
 img{
     padding: 5px;
@@ -46,7 +52,8 @@ img{
 .rightBlock{
     width: 75%;
     padding: 60px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
+
 }
 .box1{
     outline: none;
@@ -60,7 +67,7 @@ img{
     color: white;
     padding:5px 30px 5px 30px   ;
     background-color: rgb(66, 66, 248);
-    margin:10px 0px 15px 0px ;
+    margin:15px 0px 15px 0px ;
     font-size: 1rem;
 }
 
@@ -76,7 +83,9 @@ img{
     font-size: small;
     margin-top: 130px;
 }
-
+.rem{
+    font-weight: 500;
+}
 
 @media only screen and (max-width: 768px) {
     .rightBlock{
