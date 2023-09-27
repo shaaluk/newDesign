@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.mainBlock{
+    border: 2px solid pink;
+    width: 75%;
+    padding-left: 60px;
+    padding-top: 12px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+.head1{
+    font-weight: 400;
+}
+.boxDetails label{
+    color: rgb(104, 103, 103);
+    font-size: 13px;
+}
+.boxIn{
+    margin-bottom: 10px;
+}
+.box{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 194, 194);
+    width: 76%;
+    height: 5vh;
+    margin: 5px 5px 5px 0px;
+}
+.Accbtn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:5px 30px 5px 30px   ;
+    background-color: rgb(66, 66, 248);
+    font-size: 1rem;
+}
+.data3{
+    color: grey;
+    font-size: small;
+    margin-top: 40px;
+}
